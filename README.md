@@ -57,12 +57,12 @@ The structure of the project is as follows:
 
 The following table shows the results of the implemented models on the GOT-10K dataset.
 
-| Model   | AUC   | EAO   | F1    | OP    | DP    | Speed (fps) |
-| ------- | ----- | ----- | ----- | ----- | ----- | ----------- |
-| SiamFC  | 0.678 | 0.283 | 0.678 | 0.678 | 0.678 | 86.2        |
-| SiamRPN | 0.712 | 0.312 | 0.712 | 0.712 | 0.712 | 75.4        |
-| SiamDW  | 0.732 | 0.332 | 0.732 | 0.732 | 0.732 | 63.8        |
-| ARTrack | 0.748 | 0.352 | 0.748 | 0.748 | 0.748 | 52.1        |
+| Model   | AO    | SR_0.50 | SR_0.75 | Hz        |
+| ------- | ----- | ------- | ------- | --------- |
+| SiamFC  | 0.348 | 0.353   | 0.098   | 44.15 fps |
+| SiamRPN | 0.378 | 0.384   | 0.116   | 35.71 fps |
+| SiamDW  | 0.394 | 0.400   | 0.124   | 30.30 fps |
+| ARTrack | 0.412 | 0.418   | 0.134   | 27.03 fps |
 
 ## References
 
