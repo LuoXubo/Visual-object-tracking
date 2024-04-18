@@ -13,6 +13,7 @@ The implemented models are:
 3. **SiamDW**: Deeper and Wider Siamese Networks for Real-Time Visual Tracking.
 4. **ARTrack**: Adaptive and Robust Tracking with Siamese Networks.
 5. **MixFormer**: End-to-End Tracking with Iterative Mixed Attention
+6. **SiamFamilies**: A collection of SiamFC, SiamRPN, SiamDW, etc.
 
 ## Requirements
 
